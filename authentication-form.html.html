@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div id="greeting"></div>
+
+    <div id="registerForm" class="box">
+        <form onsubmit="return false">
+            <h1>Register Form</h1>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQk739r_6trlxI3aBj8MepnvK6oW15Gj6OTVkP-af0&s"
+                alt="user image">
+            <div class="fields">
+                <input type="text" placeholder="Name" id="name_register">
+                <br><br>
+                <input type="password" placeholder="password" id="password_register">
+                <br><br>
+                <input type="email" placeholder="email address" id="email_register">
+                <br><br>
+                <button onclick="signUp()">CREATE</button>
+                <p id="p1">Already registered? <a href="#signInForm">Sign In</a></p>
+            </div>
+        </form>
+    </div>
+
+    
+
+    <div id="signInForm" class="box">
+        <form onsubmit="return false">
+            <h1>Sign In Form</h1>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSb9JsqxOgGFNVVKBMVmeCoU-G1W-rWUcb057f6NERgAYHHaJ8BknDGWXNyScS6v969bq0&usqp=CAU"
+                alt="sign in image">
+            <div class="fields">
+                <input type="text" placeholder="Name"  id="name_signIn">
+                <br><br>
+                <input type="password" placeholder="Password" id="password_signIn">
+                <br><br>
+                <button onclick="signIn()">SIGN IN</button>
+                <p id="p1">New user? <a href="#registerForm">Register</a></p>
+            </div>
+        </form>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+
+</html>

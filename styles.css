@@ -1,0 +1,52 @@
+body {
+    background-color: burlywood;
+}
+
+.box {
+    background-color: white;
+    padding: 20px;
+    margin: 0px auto;
+    margin-top: 90px;
+    width: 25%;
+    box-shadow: 5px 10px 18px #888888;
+}
+
+h1 {
+    text-align: center;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.fields {
+    display: block;
+    margin: 0px auto;
+    text-align: center;
+    padding: 30px;
+}
+input {
+    background-color: rgb(214, 230, 235);
+    border: 0px;
+    padding: 10px;
+}
+
+button {
+    display: block;
+    margin: 0px auto;
+    background-color: burlywood;
+    text-align: center;
+    border: 0px;
+    color: white;
+    padding: 10px 65px;
+}
+
+#p1 {
+    color: gray;
+}
+
+a {
+    color: gray;
+}
